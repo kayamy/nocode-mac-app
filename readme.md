@@ -43,7 +43,8 @@ If that command doesn't return a version and instead says something like 'comman
 By far the easiest way of installing Node is going to the official nodejs website, and downloading the installer
 Go to https://nodejs.org/en/download/ and pick the macOS installer
 
-PLAATJE VAN INSTALL STAPPEN
+![2](https://github.com/kayamy/nocode-mac-app/blob/master/images/2.png)
+![3](https://github.com/kayamy/nocode-mac-app/blob/master/images/3.png)
 
 After this, make sure to completely QUIT your terminal (cmd + q) and open it up again to make sure it reloads your system settings.
 Now, when you type `node -v` you should see something like `12.18.4`, which is the latest version as of 17 sept 2020.
@@ -57,7 +58,7 @@ Next up is installing git, we also need the terminal for this.
 - If not, your macbook will automatically prompt you to install the `apple developer tools`
 - Git is a part of this set of developer tools
 
-PLAATJE VAN XCODE TOOLS
+![4](https://github.com/kayamy/nocode-mac-app/blob/master/images/4.png)
 
 # Download this electronJS project
 
@@ -80,7 +81,7 @@ You can now run `npm` commands, the `npm` command comes with NodeJS, which we in
 
 This should launch the starter project, and look like this
 
-PLAATJE VAN MAC APP
+![5](https://github.com/kayamy/nocode-mac-app/blob/master/images/5.png)
 
 You're all set up now.
 Next up is changing some parts of the code to point to your bubble app.
