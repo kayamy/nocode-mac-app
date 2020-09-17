@@ -3,7 +3,7 @@
 There are roughly two parts to the entire story:
 
 - Setting up your computer to be able to develop, run and distribute electronJS projects
-- Downloading the electronJS starter project in this repository and have it point at your bubble app
+- Downloading the electronJS starter project in this repository and have it point at your nocode app
 
 ### First of all, requirements
 
@@ -81,6 +81,21 @@ This should launch the starter project, and look like this
 
 You're all set up now🕴️
 
-Next up is changing some parts of the code to point to your bubble app.
+Next up is changing some parts of the code to point to your nocode app.
 
-To learn how, check out the [tweet](twitter.com/minimumssstudio).
+### Hooking it up to your nocode app
+
+- Once again, go to the `nocode-mac-app` folder in finder.
+- Inside of this folder you will find another folder called `src`. This holds all of the code for the starter project.
+- Open up `index.js` in your favorite text editor, even `TextEdit` will work, but we prefer [visual studio code](https://code.visualstudio.com/)
+- Scroll down until you see a line of that looks like this `window.loadURL("https:/bubble.io");`
+- Replace the url within the quotation marks with the url to your nocode app
+ - For example, with bubble: `window.loadURL("https://minimum-mac-app.bubbleapps.io/version-test");`
+- Don't forget to play around with the layout / sizing of your nocode app to make it fit the window
+- Go back to your terminal where you ran the `npm start` command and stop the process by pressing `ctrl + c` in the terminal.
+- Go ahead and run `npm start` again, you will have to do this every time you change the code.
+ 
+### General thoughts
+
+We highly encourage you to play around with this starter project and ask us questions on Twitter @minimumsstudio or @yelkhayami.
+The code is very minimal, so please feel free to try out things and change stuff like the electronjs window size etc. It's a great opportunity to learn about code without having to write it. If you are interested in finding out how to **actually** distribute a nocode mac app let us know, so we can expand the guide and add more instructions!
