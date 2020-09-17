@@ -1,4 +1,4 @@
-## Make sure you start by reading the [tweet](twitter.com/minimumssstudio).
+## Make sure you start by reading the [tweet](https://twitter.com/minimumssstudio/status/1306593715813638149).
 
 There are roughly two parts to the entire story:
 
