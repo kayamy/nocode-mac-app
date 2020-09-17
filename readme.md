@@ -12,9 +12,6 @@ There are roughly two parts to the entire story:
 - Basic terminal command knowledge
   -  If you don't know how to navigate folders within your terminal, read [this](https://scotch.io/bar-talk/10-need-to-know-mac-terminal-commands) first
 
-While all of this is possible on windows the setup of it is a bit different.
-For the sake of simplicity we'll be focussing on building Mac apps, on a macbook.
-
 ### Stuff we'll need to install
 
 - NodeJS
@@ -28,9 +25,9 @@ Git is a tool that makes it really easy for your computer to download pieces of 
 Before installing NodeJS, let's make sure we don't already have it installed by accident (sometimes it comes with other software)
 
 - Open up your terminal by looking for `Terminal.app` in spotlight
-- inside of the terminal, type `node -v`
+- Inside of the terminal, type `node -v`
 - If it shows something like `12.18.4` or similar, this means you have a version of node already installed
-- In that case, make sure the version is higher than `10.17.0`
+- In that case, make sure the version is *higher* than `10.17.0`
 
 If that command doesn't return a version and instead says something like `command not found`, we need to install NodeJS.
 
@@ -49,9 +46,9 @@ Now, when you type `node -v` you should see something like `12.18.4`, which is t
 Next up is installing git, we also need the terminal for this.
 
 - First try typing `git --version` to see if it's already installed
-- If it is, you should see something like `git version 2.20.1...`, which version doesn't really matter
+- If it is, you should see something like `git version 2.20.1...`
 - If not, your macbook will automatically prompt you to install the `apple developer tools`
-- Git is a part of this set of developer tools
+- Git is a part of this set of developer tools, so go ahead and accept the prompt.
 
 ![4](https://github.com/kayamy/nocode-mac-app/blob/master/images/4.png)
 
@@ -61,14 +58,13 @@ With these things installed, we should now be able to run electron project we pr
 First, pick a place where on your computer where you want to keep the project folder.
 We usually have a `~/Development` folder with all of the projects.
 
-- go to that folder within your terminal
-- in the above case, the command to navigate there would be `cd ~/Development`
-- to download the project, run this command: `git clone X`
-- you should now have a new folder called `bubble-mac-app`
+- Go to that folder within your terminal
+- To download the project, run this command: `git clone https://github.com/kayamy/nocode-mac-app.git`
+- You should now have a new folder called `nocode-mac-app`
 
 ### Almost there!
 
-With all of this in place, go inside of the `bubble-mac-app` folder.
+With all of this in place, go inside of the `nocode-mac-app` folder.
 You can now run `npm` commands, the `npm` command comes with NodeJS, which we installed earlier.
 
 - First, install all the project-specfic dependencies with `npm install`
@@ -78,6 +74,7 @@ This should launch the starter project, and look like this
 
 ![5](https://github.com/kayamy/nocode-mac-app/blob/master/images/5.png)
 
-You're all set up now.
+You're all set up now 🕴️
+
 Next up is changing some parts of the code to point to your bubble app.
-To learn how, check out the tweet.
+To learn how, check out the [tweet](twitter.com/minimumssstudio).
