@@ -73,7 +73,11 @@ We usually have a `~/Development` folder with all of the projects.
 # Almost there!
 
 With all of this in place, go inside of the `bubble-mac-app` folder.
-You can now run `npm start`, the `npm` command comes with NodeJS, which we installed earlier.
+You can now run `npm` commands, the `npm` command comes with NodeJS, which we installed earlier.
+
+- First, install all the project-specfic dependencies with `npm install`
+- Then launch the project with `npm start`
+
 This should launch the starter project, and look like this
 
 PLAATJE VAN MAC APP

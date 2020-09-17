@@ -54,7 +54,7 @@ const createWindow = () => {
     transparent: false,
   });
 
-  window.loadURL("https://nu.nl");
+  window.loadURL("https://minimum-mac-app.bubbleapps.io/version-test");
   window.on("blur", () => window.hide());
 
   // window.openDevTools();
