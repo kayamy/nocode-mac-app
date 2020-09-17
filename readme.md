@@ -74,7 +74,7 @@ This should launch the starter project, and look like this
 
 ![5](https://github.com/kayamy/nocode-mac-app/blob/master/images/5.png)
 
-You're all set up now 🕴️
+You're all set up now🕴️
 
 Next up is changing some parts of the code to point to your bubble app.
 To learn how, check out the [tweet](twitter.com/minimumssstudio).
